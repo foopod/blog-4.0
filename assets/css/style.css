@@ -45,10 +45,13 @@ div.image{
 }
 
 @media screen and (min-width:600px){
+  h1 {
+    font-size:3em;
+  }
   img {
    max-height: 100vh;
    max-width: 80vw;
-   border:10px solid #222;
+   border:6px solid #222;
    margin:1em;
   }
 }
