@@ -48,10 +48,19 @@ div.image{
   h1 {
     font-size:3em;
   }
+  
+  .left{
+    margin-left:2em;
+  }
+  
+  .right{
+    margin-right:2em;
+  }
+  
   img {
    max-height: 100vh;
    max-width: 80vw;
-   border:6px solid #222;
+   border:6px solid #111;
    margin:1em;
   }
 }
