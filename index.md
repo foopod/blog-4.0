@@ -11,7 +11,7 @@ title: Jono Shields
 
 
 <div class="image">
-  <img class="left" src="/assets/images/march.jpg"/>
+  <img class="left" src="/assets/images/building.jpg"/>
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 

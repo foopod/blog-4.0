@@ -10,13 +10,8 @@ title: Jono Shields Photography
     <link rel='stylesheet' href='/assets/css/style.css'/>
     <title>{{ title }}</title>
   </head>
+  {% include 'navbar.njk' %}
   <body>
-  <h1><a href="/">Jono Shields</a></h1>
-  <nav>
-    <a href="/gallery">Gallery</a>
-    <a href="/about">About</a>
-    <a href="/buy">Buy a print</a>
-  </nav>
     <div class="container">
       {{ content | safe }}
     </div>
