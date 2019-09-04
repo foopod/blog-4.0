@@ -69,7 +69,11 @@ p{
   .right, .left {
    max-height: 100vh;
    max-width: 80vw;
-   border:6px solid #111;
+   border:4px solid #111;
+  }
+  
+  img.bottom{
+    margin-bottom:-1em;
   }
   
   p{
