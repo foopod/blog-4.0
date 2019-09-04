@@ -1,5 +1,3 @@
-const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
-
 module.exports = function(eleventyConfig) {
   // Output directory: _site
   
