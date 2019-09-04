@@ -8,6 +8,10 @@ h1 {
   text-align: center;
 }
 
+h1 a{
+  text-decoration:none;
+}
+
 nav {
   margin:auto;
   display:block;
@@ -25,7 +29,7 @@ img {
 }
 
 .container{
-  padding:1em 0;
+  
 }
 
 .left{
@@ -44,6 +48,11 @@ div.image{
   margin-bottom:6em;
 }
 
+p{
+  padding:1em;
+  text-align: justify;
+}
+
 @media screen and (min-width:600px){
   h1 {
     font-size:3em;
@@ -57,10 +66,15 @@ div.image{
     margin-right:2em;
   }
   
-  img {
+  .right, .left {
    max-height: 100vh;
    max-width: 80vw;
    border:6px solid #111;
-   margin:1em;
+  }
+  
+  p{
+    max-width:38em;
+    margin:auto;
+    
   }
 }
