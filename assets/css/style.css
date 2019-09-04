@@ -14,6 +14,13 @@ h1 a{
   color:#111;
 }
 
+h2 {
+  font-weight:300;
+  margin:3em;
+  margin-bottom:1.5em;
+  text-align:center;
+}
+
 nav {
   margin:auto;
   display:block;
@@ -49,7 +56,7 @@ img {
 
 .right, .left {
  max-height: 100vh;
- max-width: 80vw;
+ max-width: 75vw;
  border:4px solid #111;
 }
 
