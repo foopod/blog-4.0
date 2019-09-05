@@ -47,15 +47,58 @@ title: Jono Shields
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 
-<h2>Wellington, July 2019.</h3>
+<h2>Lightshow, July 2019.</h3>
 
 <div class="image">
-  <img class="left" src="/assets/images/building.jpg"/>
+  <img class="right" src="/assets/images/lightshow.jpg"/>
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 
 <div class="image">
-  <img class="right" src="/assets/images/spacesuit.jpg"/>
+  <img class="left" src="/assets/images/lightshow2.jpg"/>
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 
+<h2>Wellington, June 2019.</h3>
+
+<div class="image">
+  <img class="right" src="/assets/images/wellington.jpg"/>
+  <!--<span class="description side">Wellington 2019</span>-->
+</div>
+
+<div class="image">
+  <img class="left" src="/assets/images/wellington2.jpg"/>
+  <!--<span class="description side">Wellington 2019</span>-->
+</div>
+
+<div class="image">
+  <img class="right" src="/assets/images/wellington3.jpg"/>
+  <!--<span class="description side">Wellington 2019</span>-->
+</div>
+
+<div class="image">
+  <img class="left" src="/assets/images/wellington4.jpg"/>
+  <!--<span class="description side">Wellington 2019</span>-->
+</div>
+
+<h2>St Matthews, Auckland CBD, June 2019.</h3>
+
+<div class="image">
+  <img class="right" src="/assets/images/church.jpg"/>
+  <!--<span class="description side">Wellington 2019</span>-->
+</div>
+
+<div class="image">
+  <img class="left" src="/assets/images/church2.jpg"/>
+  <!--<span class="description side">Wellington 2019</span>-->
+</div>
+
+<div class="image">
+  <img class="right" src="/assets/images/church3.jpg"/>
+  <!--<span class="description side">Wellington 2019</span>-->
+</div>
+
+<div class="image">
+  <img class="left" src="/assets/images/church4.jpg"/>
+  <!--<span class="description side">Wellington 2019</span>-->
+</div>
