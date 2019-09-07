@@ -21,6 +21,10 @@ h2 {
   text-align:center;
 }
 
+h3{
+  padding:1em;
+}
+
 nav {
   margin:auto;
   display:block;
@@ -54,6 +58,16 @@ wide {
 }
 
 .product-link{
+  text-decoration:none;
+}
+
+.purchase{
+  float:right;
+  font-size:0.8em;
+  border:1px solid #222;
+  padding:3px;
+  border-radius:10px;
+  font-weight:300;
   text-decoration:none;
 }
 
@@ -122,5 +136,10 @@ p{
   
   .product-container{
     width:26%;
+  }
+  
+  .product-image{
+    margin:auto;
+    display:block;
   }
 }
