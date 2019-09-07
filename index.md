@@ -47,7 +47,7 @@ title: Jono Shields
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 
-<h2>Lightshow, July 2019.</h3>
+<h2>Tūrama Festival, July 2019.</h3>
 
 <div class="image">
   <img class="right" src="/assets/images/lightshow.jpg"/>

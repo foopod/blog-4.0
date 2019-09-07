@@ -38,8 +38,23 @@ img {
   max-width:100%;
 }
 
-.container{
-  
+wide {
+  width:100%;
+}
+
+.product-container{
+  width:90%;
+  padding:1em;
+  display:inline-block;
+}
+
+.product-price{
+  font-weight:bold;
+  display:block;
+}
+
+.product-link{
+  text-decoration:none;
 }
 
 .left{
@@ -98,5 +113,14 @@ p{
     max-width:38em;
     margin:auto;
     
+  }
+  
+  .column{
+    max-width:40em;
+    margin:auto;
+  }
+  
+  .product-container{
+    width:26%;
   }
 }
