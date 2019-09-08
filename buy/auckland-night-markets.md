@@ -1,11 +1,13 @@
 ---
 tags: product
 title: Auckland Night Markets
-description : Blah blah
+description : It's almost like going to another country when you visit the Auckland Night Markets. People, food and culture from all of over the world get together to celebrate their diversity.
 image : markets.jpg
-price : 16
+price : 29
 ---
 
-<img class="product-image" src="/assets/images/{{ image }}"/>
-<h3>{{title}}</h3>
-<p>{{description}}</p>
+<div class="column">
+  <img class="product-image" src="/assets/images/{{ image }}"/>
+  <h3>{{title}} <a class="purchase" href="#">Purchase</a></h3>
+  <p>{{description}}</p>
+</div>
