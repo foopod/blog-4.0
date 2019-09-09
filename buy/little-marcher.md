@@ -7,7 +7,7 @@ image : march2.jpg
 price : 22
 ---
 
-<div class="column">
+<div style="padding:2em;margin:2em;">
   <img class="product-image" src="/assets/images/{{ image }}"/>
   <div class="column-narrow">
     <h3>{{title}} <a class="purchase" href="#">Purchase</a></h3>

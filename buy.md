@@ -2,6 +2,8 @@
 layout: page.njk
 ---
 
+<p>If you don't find what you were looking for you can make a request <a href="request">here</a>.</p>
+
 <div class="column">
 {%- for product in collections.product -%}
   <a class="product-link" href="{{product.url}}">
@@ -12,6 +14,4 @@ layout: page.njk
   </div>
   </a>
 {%- endfor -%}
-
-<h2><a href="request">Want to request a print?</a></h2>
 </div>
