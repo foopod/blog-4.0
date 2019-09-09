@@ -135,6 +135,7 @@ p{
   
   .column{
     max-width:80%;
+    padding:0px;
     margin:auto;
   }
   
