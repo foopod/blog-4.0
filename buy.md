@@ -9,8 +9,10 @@ layout: page.njk
   <a class="product-link" href="{{product.url}}">
   <div class="product-container">
     <img class="product-image" src="/assets/images/{{ product.data.image }}"/>
-    <span class="product-title">{{ product.data.title }}</span>
-    <span class="product-price">${{ product.data.price }}</span>
+    <div class="column-narrow">
+      <span class="product-title">{{ product.data.title }}</span>
+      <span class="product-price">${{ product.data.price }}</span>
+    </div>
   </div>
   </a>
 {%- endfor -%}
