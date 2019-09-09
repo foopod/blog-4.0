@@ -49,9 +49,8 @@ wide {
 }
 
 .product-container{
-  width:90%;
-  padding:1em;
   display:inline-block;
+  margin-bottom:2em;
 }
 
 .product-price{
@@ -88,6 +87,10 @@ wide {
  max-height: 100vh;
  max-width: 75vw;
  border:2px solid #111;
+}
+
+.column{
+ padding:1em; 
 }
 
 div.image{
