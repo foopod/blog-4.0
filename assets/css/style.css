@@ -89,10 +89,6 @@ wide {
  border:2px solid #111;
 }
 
-.column{
- padding:1em; 
-}
-
 div.image{
   margin-bottom:3em;
 }
@@ -135,7 +131,7 @@ p{
   
   .column{
     max-width:80%;
-    padding:0px;
+    padding:1em;
     margin:auto;
   }
   
