@@ -135,6 +135,11 @@ p{
     margin:auto;
   }
   
+  .column-narrow{
+    max-width:38em;
+    margin:auto;
+  }
+  
   .product-container{
     width:26%;
   }
