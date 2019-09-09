@@ -9,6 +9,8 @@ price : 33
 
 <div class="column">
   <img class="product-image" src="/assets/images/{{ image }}"/>
-  <h3>{{title}} <a class="purchase" href="#">Purchase</a></h3>
-  <p>{{description}}</p>
+  <div class="column-narrow">
+    <h3>{{title}} <a class="purchase" href="#">Purchase</a></h3>
+    <p>{{description}}</p>
+  </div>
 </div>
