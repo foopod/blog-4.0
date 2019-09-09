@@ -133,6 +133,9 @@ p{
     max-width:80%;
     padding:1em;
     margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .column-narrow{
@@ -141,7 +144,7 @@ p{
   }
   
   .product-container{
-    width:29%;
+    padding:1em;
   }
   
   .product-image{
