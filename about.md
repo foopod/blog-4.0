@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: Jono Shields
+title: About Jono Shields
 ---
 
 
