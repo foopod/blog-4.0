@@ -1,5 +1,6 @@
 ---
 layout: page.njk
+title: Jono Shields - Buy a Print
 ---
 
 <p>If you don't find what you were looking for you can make a request <a href="request">here</a>.</p>
