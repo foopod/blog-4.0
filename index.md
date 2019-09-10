@@ -3,7 +3,7 @@ layout: page.njk
 title: Jono Shields Photography
 ---
 
-<h2>Auckland Night Markets, September 2019.</h3>
+<h2>Auckland Night Markets, September 2019.</h2>
 
 <div class="image">
   <img class="right" src="/assets/images/markets.jpg"/>
@@ -25,7 +25,7 @@ title: Jono Shields Photography
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 
-<h2>Official Animal Rights March, Auckland, August 2019.</h3>
+<h2>Official Animal Rights March, Auckland, August 2019.</h2>
 
 <div class="image">
   <img class="right" src="/assets/images/march.jpg"/>
@@ -47,7 +47,7 @@ title: Jono Shields Photography
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 
-<h2>Tūrama Festival, July 2019.</h3>
+<h2>Tūrama Festival, July 2019.</h2>
 
 <div class="image">
   <img class="right" src="/assets/images/lightshow.jpg"/>
@@ -59,7 +59,7 @@ title: Jono Shields Photography
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 
-<h2>Wellington, June 2019.</h3>
+<h2>Wellington, June 2019.</h2>
 
 <div class="image">
   <img class="right" src="/assets/images/wellington.jpg"/>
@@ -81,7 +81,7 @@ title: Jono Shields Photography
   <!--<span class="description side">Wellington 2019</span>-->
 </div>
 
-<h2>St Matthews, Auckland CBD, June 2019.</h3>
+<h2>St Matthews, Auckland CBD, June 2019.</h2>
 
 <div class="image">
   <img class="right" src="/assets/images/church.jpg"/>
