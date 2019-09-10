@@ -1,11 +1,13 @@
 ---
 layout: page.njk
-title: Jono Shields - Buy a Print
+title: Buy a Print
 ---
+
+# Buy a Print
 
 <p>If you don't find what you were looking for you can make a request <a href="request/">here</a>.</p>
 
-<div class="column">
+<div class="column flex">
 {%- for product in collections.product -%}
   <div class="product-container">
     <a class="product-link" href="{{product.url}}">

@@ -1,8 +1,9 @@
 ---
 layout: page.njk
-title: About Jono Shields
+title: About
 ---
 
+# A bit about Jono
 
 A human interested in exploring the world of photography.
 

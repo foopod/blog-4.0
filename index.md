@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-title: Jono Shields Photography
+title: Photography
 ---
 
-<h2>Auckland Night Markets, September 2019.</h2>
+<h1>Auckland Night Markets, September 2019.</h1>
 
 <div class="image">
   <img class="right" src="/assets/images/markets.jpg"/>
