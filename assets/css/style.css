@@ -125,6 +125,8 @@ p{
   
   img.bottom{
     margin-bottom:-1em;
+    margin: auto;
+    display: block;
   }
   
   p{
