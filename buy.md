@@ -6,14 +6,14 @@ layout: page.njk
 
 <div class="column">
 {%- for product in collections.product -%}
-  <a class="product-link" href="{{product.url}}">
   <div class="product-container">
-    <img class="product-image" src="/assets/images/{{ product.data.image }}"/>
-    <div class="column-narrow">
-      <span class="product-title">{{ product.data.title }}</span>
-      <span class="product-price">${{ product.data.price }}</span>
-    </div>
+    <a class="product-link" href="{{product.url}}">
+      <img class="product-image" src="/assets/images/{{ product.data.image }}"/>
+      <div class="column-narrow">
+        <span class="product-title">{{ product.data.title }}</span>
+        <span class="product-price">${{ product.data.price }}</span>
+      </div>
+    </a>
   </div>
-  </a>
 {%- endfor -%}
 </div>
