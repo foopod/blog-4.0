@@ -89,6 +89,10 @@ wide {
  border:2px solid #111;
 }
 
+.column-narrow{
+ padding:1em; 
+}
+
 div.image{
   margin-bottom:3em;
 }
@@ -151,4 +155,8 @@ p{
     margin:auto;
     display:block;
   }
+  
+  .product-container .column-narrow {
+    text-align: center;
+}
 }
