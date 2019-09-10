@@ -1,5 +1,6 @@
 ---
-title: Request a print
+layout: page.njk
+title: Jono Shields - Request a Print
 description : Blah blah
 image : march.jpg
 price : 0
