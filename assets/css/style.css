@@ -152,7 +152,7 @@ p{
   
   .product-container{
     padding:1em;
-    width:50%;
+    width:80%;
   }
   
   .product-image{
@@ -163,4 +163,10 @@ p{
   .product-container .column-narrow {
     text-align: center;
 }
+}
+
+@media screen and (min-width:1200px){
+  .product-container{
+    width:50%;
+  }
 }
