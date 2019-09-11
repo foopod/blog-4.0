@@ -12,7 +12,47 @@ price : 22
   <img class="product-image" src="/assets/images/{{ image }}"/>
   <div class="column-narrow">
     <p>{{description}}</p>
-    <a class="purchase" href="#">Purchase</a>
+    <button class="purchase"
+  id="checkout-button-sku_FnBmCuEklON6gs"
+  role="link">
+  Purchase
+</button>
   </div>
 </div>
 
+<!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+
+
+<div id="error-message"></div>
+
+<script>
+  var stripe = Stripe('pk_live_2op5PiMvbfqGessCLzvQrx2X');
+
+  var checkoutButton = document.getElementById('checkout-button-sku_FnBmCuEklON6gs');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      items: [{sku: 'sku_FnBmCuEklON6gs', quantity: 1}],
+
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: window.location.protocol + '//jonoshields.com/success',
+      cancelUrl: window.location.protocol + '//jonoshields.com/canceled',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+</script>
