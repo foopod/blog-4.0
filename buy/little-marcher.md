@@ -17,17 +17,12 @@ price : 22
   role="link">
   Purchase
 </button>
+    <div id="error-message"></div>
   </div>
 </div>
 
-<!-- Load Stripe.js on your website. -->
+
 <script src="https://js.stripe.com/v3"></script>
-
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-
-
-<div id="error-message"></div>
-
 <script>
   var stripe = Stripe('pk_live_2op5PiMvbfqGessCLzvQrx2X');
 
