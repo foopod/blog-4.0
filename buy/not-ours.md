@@ -1,7 +1,7 @@
 ---
 tags: product
 layout: page.njk
-title: NOT OURS
+title: NOT OURS (6 x 8)
 description : Offical Animal Rights March, Auckland CBD, August 2019. Hundreds of protestors march up Queen St speaking up for animals that don't have a voice. Messages like "Not your mum, not your milk!" and "Animals are not ours to use" litter the crowd of protestors.
 image : march.jpg
 price : 22
