@@ -91,12 +91,11 @@ wide {
   font-size:0.8em;
   border:1px solid #222;
   padding:10px;
-  font-weight:300;
   text-decoration:none;
   margin-bottom:10em;
-  font-weight: bold;
   background-color:#fff;
-  box-shadow: 2px 2px 1px 1px #ddd;
+  box-shadow: 1px 1px 1px 1px #ddd;
+  font-size: 1.2em;
 }
 
 .left{
