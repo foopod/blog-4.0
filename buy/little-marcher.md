@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: product
-title: Little Marcher
+title: Little Marcher (6 x 8)
 description : Among the adults at the Animal Rights March are children standing strong and demonstrating their beliefs.
 image : march2.jpg
 price : 22
