@@ -10,14 +10,16 @@ description: Buy or request a print of Jono's photograpic works. Prints are gene
 
 <div class="column flex">
 {%- for product in collections.product -%}
-  <div class="product-container">
-    <a class="product-link" href="{{product.url}}">
-      <img class="product-image" src="/assets/images/{{ product.data.image }}"/>
-      <div class="column-narrow">
-        <span class="product-title">{{ product.data.title }}</span>
-        <span class="product-price">${{ product.data.price }}</span>
-      </div>
-    </a>
-  </div>
-{%- endfor -%}
+  {%- if product.data.live == true -%}
+    <div class="product-container">
+      <a class="product-link" href="{{product.url}}">
+        <img class="product-image" src="/assets/images/{{ product.data.image }}"/>
+        <div class="column-narrow">
+          <span class="product-title">{{ product.data.title }}</span>
+          <span class="product-price">${{ product.data.price }}</span>
+        </div>
+      </a>
+    </div>
+  {%- endif - %}
+{%- endfor %}
 </div>
