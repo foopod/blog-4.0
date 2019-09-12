@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 title: Request a Print
-description : Request a print of any of Jono's photos from here or from Instagram.
+description : Request a print of any of Jono's photos from here or from Instagram. Prints are generally on photographic paper in 6 x 8 or on fine art paper in larger sizes
 image : march.jpg
 price : 0
 ---

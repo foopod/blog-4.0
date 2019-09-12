@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 title: Photography
-description: Explore the photographic works of Jono Shields
+description: Over the last couple of years Jono has been learning about photography. Welcome, please feel free to explore.
 ---
 
 <h1>Auckland Night Markets, September 2019.</h1>
