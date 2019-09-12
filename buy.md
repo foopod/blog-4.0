@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: Buy a Print
+description: Buy or request a print of Jono's photograpic works. Prints are generally on photographic paper in 6 x 8 or on fine art paper in larger sizes
 ---
 
 # Buy a Print

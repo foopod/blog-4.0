@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 title: Request a Print
-description : Blah blah
+description : Request a print of any of Jono's photos from here or from Instagram.
 image : march.jpg
 price : 0
 ---
