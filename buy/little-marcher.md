@@ -38,8 +38,8 @@ price : 22
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: window.location.protocol + '//jonoshields.com/success',
-      cancelUrl: window.location.protocol + '//jonoshields.com/canceled',
+      successUrl: window.location.protocol + '//jonoshields.com/buy/?action=success',
+      cancelUrl: window.location.protocol + '//jonoshields.com/buy/?action=cancel',
     })
     .then(function (result) {
       if (result.error) {

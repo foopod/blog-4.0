@@ -146,6 +146,7 @@ p{
 
 .box .closebutton{
   float:right;
+  cursor:pointer;
 }
 
 .cancelled {

@@ -4,13 +4,13 @@ title: Buy a Print
 description: Buy or request a print of Jono's photograpic works. Prints are generally on photographic paper in 6 x 8 or on fine art paper in larger sizes
 ---
 
-<div class="success box">
-  <h4>Success<span class="closebutton">×</span></h4>
+<div id="success" class="success box">
+  <h4>Success<span class="closebutton" onclick="closeWindow()">×</span></h4>
   
   <p>Congratulations on your new purchase. You should receive a confirmation email in just a few minutes.</p>
 </div>
 
-<div class="cancelled box">
+<div id="cancel" class="cancelled box">
   <h4>Order Cancelled<span class="closebutton">×</span></h4>
   
   <p> Thanks for having a look.</p>
@@ -36,3 +36,21 @@ description: Buy or request a print of Jono's photograpic works. Prints are gene
   {%- endif - %}
 {%- endfor %}
 </div>
+
+<script>
+  window.onload = function(){
+    var query = window.location.search.substring(1);
+    var qs = new URLSearchParams(query);
+    if(qs.get('action') == 'success'){
+      document.getElementById("success").style.display = 'block';
+    } else if (qs.get('action') == 'cancel'){
+      document.getElementById("cancel").style.display = 'block';
+    }
+  };
+  
+  var closeWindow = function(){
+    window.history.replaceState({}, document.title, "/buy/");
+    document.getElementById("success").style.display = 'none';
+    document.getElementById("cancel").style.display = 'none';
+  };
+</script>
