@@ -24,7 +24,7 @@ price : 22
 
 <script src="https://js.stripe.com/v3"></script>
 <script>
-  var stripe = Stripe('pk_live_2op5PiMvbfqGessCLzvQrx2X');
+  var stripe = Stripe('pk_test_AwZVuVgR86s5FeCu0mAI3Lm9');
 
   var checkoutButton = document.getElementById('checkout-button-sku_FnBmCuEklON6gs');
   checkoutButton.addEventListener('click', function () {
