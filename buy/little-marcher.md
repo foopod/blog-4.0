@@ -27,7 +27,7 @@ price : 22
 <script>
   var stripe = Stripe('pk_test_AwZVuVgR86s5FeCu0mAI3Lm9');
 
-  var checkoutButton = document.getElementById('checkout-button-sku_FnBmCuEklON6gs');
+  var checkoutButton = document.getElementById('checkout-button-sku_FqCAAnD5oJFFKt');
   checkoutButton.addEventListener('click', function () {
     // When the customer clicks on the button, redirect
     // them to Checkout.
