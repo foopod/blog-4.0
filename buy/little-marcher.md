@@ -12,8 +12,9 @@ price : 22
   <img class="product-image" src="/assets/images/{{ image }}"/>
   <div class="column-narrow">
     <p>{{description}}</p>
+    <p><span class="product-price">${{price}}</span></p>
     <button class="purchase"
-  id="checkout-button-sku_FnBmCuEklON6gs"
+  id="checkout-button-sku_FqCAAnD5oJFFKt"
   role="link">
   Purchase
 </button>
@@ -31,7 +32,7 @@ price : 22
     // When the customer clicks on the button, redirect
     // them to Checkout.
     stripe.redirectToCheckout({
-      items: [{sku: 'sku_FnBmCuEklON6gs', quantity: 1}],
+      items: [{sku: 'sku_FqCAAnD5oJFFKt', quantity: 1}],
 
       // Do not rely on the redirect to the successUrl for fulfilling
       // purchases, customers may not always reach the success_url after
