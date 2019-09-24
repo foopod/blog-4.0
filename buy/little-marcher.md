@@ -18,14 +18,32 @@ price : 22
   role="link">
   Purchase
 </button>
+<input type="text" id="searchTextField"/>
     <div id="error-message"></div>
   </div>
 </div>
 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJyBhPDP_kMYM9v3hMeM292mY_4uL3v6M&libraries=places"></script>
+<script>
+  var defaultBounds = new google.maps.LatLngBounds(
+  new google.maps.LatLng(-33.8902, 151.1759),
+  new google.maps.LatLng(-33.8474, 151.2631));
+
+  var input = document.getElementById('searchTextField');
+  var options = {
+    bounds: defaultBounds,
+    types: ['establishment']
+  };
+  
+  autocomplete = new google.maps.places.Autocomplete(input, options);
+</script>
 
 <script src="https://js.stripe.com/v3"></script>
 <script>
   var stripe = Stripe('pk_test_AwZVuVgR86s5FeCu0mAI3Lm9');
+  
+  var nzShipping = 'sku_FqCAAnD5oJFFKt';
+  var globalShipping = 'sku_Fs3orOP0K6ugcF'
 
   var checkoutButton = document.getElementById('checkout-button-sku_FqCAAnD5oJFFKt');
   checkoutButton.addEventListener('click', function () {

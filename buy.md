@@ -19,7 +19,7 @@ description: Buy or request a print of Jono's photograpic works. Prints are gene
 # Buy a Print
 
 
-<p>If you don't find what you were looking for you can make a request <a href="request/">here</a>.</p>
+<!--<p>If you don't find what you were looking for you can make a request <a href="request/">here</a>.</p>-->
 
 <div class="column flex">
 {%- for product in collections.product -%}
