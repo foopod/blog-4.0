@@ -8,6 +8,8 @@ title: Jono Shields Photography
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ description }}">
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+
     {% set css %}
       {% include "../assets/css/style.css" %}
     {% endset %}
@@ -16,10 +18,11 @@ title: Jono Shields Photography
       {{ css | cssmin | safe }}
     </style>
 
-    <title>Jono Shields - {{ title }}</title>
+    <title>IGNIS AURUM - {{ title }}</title>
   </head>
   {% include 'navbar.njk' %}
   <body>
     {{ content | safe }}
+    <img style="width:100px;border-radius:50%;margin:auto;display:block;padding:2em;"src="/assets/images/logo.png">
   </body>
 </html>

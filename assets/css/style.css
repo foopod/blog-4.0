@@ -1,11 +1,5 @@
-@font-face {
-  font-family: Source Code Pro;
-  src: url('/assets/css/SourceCodePro-Light.otf.woff2') format('woff2'),
-    url('/assets/css/SourceCodePro-Light.otf.woff') format('woff');
-}
-
 body {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Open Sans', monospace;
   -moz-font-feature-settings:    "kern" 1;
   -ms-font-feature-settings:     "kern" 1;
   -o-font-feature-settings:      "kern" 1;
@@ -18,11 +12,12 @@ body {
   -moz-osx-font-smoothing: grayscale; /* Firefox */
   text-rendering: optimizeLegibility;
   margin:0;
-  color:#111;
+  color:#FFF;
+  background-color: #111;
 }
 
 .site-title {
-  font-weight:300;
+  font-weight:900;
   text-align: center;
   font-size:2em;
   margin:.67em;
@@ -31,6 +26,7 @@ body {
 
 .site-title a{
   text-decoration:none;
+  border-bottom: 10px white solid;
 }
 
 h1{
@@ -61,7 +57,7 @@ nav a{
 }
 
 a{
-  color:#111;
+  color:#FFF;
 }
 
 img {
@@ -73,8 +69,16 @@ wide {
 }
 
 .product-container{
-  display:inline-block;
+  display:block;
+  max-width: 300px;
+  margin:auto;
   margin-bottom:2em;
+}
+
+.product-container img{
+  object-fit:cover;
+  width: 300px;
+  height: 300px
 }
 
 .product-price{
@@ -89,13 +93,26 @@ wide {
 .purchase{
   float:right;
   font-size:0.8em;
-  border:1px solid #222;
   padding:10px;
+  border:none;
   text-decoration:none;
   margin-bottom:10em;
-  background-color:#fff;
-  box-shadow: 1px 1px 1px 1px #ddd;
+  background-color:#000;
   font-size: 1.2em;
+}
+
+.gallery{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.thumb{
+  padding:3px;
+  padding-top:10px;
+  width:75px;
+  height:75px;
+  object-fit: cover;
 }
 
 .left{
@@ -216,6 +233,7 @@ p{
   .product-image{
     margin:auto;
     display:block;
+    max-height: 300px;
   }
   
   .product-container .column-narrow {
