@@ -91,14 +91,16 @@ wide {
 }
 
 .purchase{
-  float:right;
   font-size:0.8em;
   padding:10px;
   border:none;
   text-decoration:none;
-  margin-bottom:10em;
+  margin-bottom: 6em;
   background-color:#000;
   font-size: 1.2em;
+  margin-left: auto;
+  display: block;
+  width: max-content;
 }
 
 .gallery{
