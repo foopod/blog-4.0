@@ -4,7 +4,7 @@ layout : page.njk
 title: Rocket Pendant
 description : Who doesn't love a good rocket? This pendant was cast from reclaimed tin bronze. It comes on a wax corded necklace with instructions on how to resize as needed.
 image : rocket_3.JPG
-price : 55
+price : 45
 live: true
 ---
 
