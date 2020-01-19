@@ -52,4 +52,4 @@ description: Handmade Jewellery from New Zealand Makers
   };
 </script>
 
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"ccf9453fb98ac9f1f90023474","lid":"cb3f8804ae","uniqueMethods":true}) })</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: true"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"ccf9453fb98ac9f1f90023474","lid":"cb3f8804ae","uniqueMethods":true}) })</script>
